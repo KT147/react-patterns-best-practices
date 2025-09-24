@@ -13,6 +13,7 @@ function SearchableList({ items, children }) {
     setSearchTerm(event.target.value);
   }
 
+
   return (
     <div className="searchable-list">
       <input type="search" placeholder="Search" onChange={handleChange}/>
